@@ -1,6 +1,6 @@
 # TexTracer
 
-![TexTracer Logo](docs/frontend/textracer_logo.png)
+![TexTracer Logo](docs/textracer_logo.png)
 
 **AI-powered Text Search and Extraction (Professional Skeleton)**  
 *G Prajit Gouresh*
