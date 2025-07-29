@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results - TexTracer</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #9B7DE2 0%, #9F8FEF 100%);
+        color: #fff;
+        text-align: center;
+        min-height: 100vh;
+        position: relative;
+      }
+      .nav {
+        padding: 24px 0 0 0;
+      }
+      .nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 18px;
+        font-weight: 500;
+        font-size: 1rem;
+        letter-spacing: 0.05em;
+        opacity: 0.85;
+        transition: opacity 0.2s;
+      }
+      .nav a:hover {
+        opacity: 1;
+        text-decoration: underline;
+      }
+      .container {
+        margin-top: 35px;
+        padding: 20px;
+      }
+      #resultsContainer {
+        background: rgba(255,255,255,0.13);
+        border-radius: 10px;
+        padding: 26px;
+        max-width: 650px;
+        margin: 0 auto 20px;
+        box-shadow: 0 0 16px rgba(80,50,150,0.09);
+        color: #fff;
+        font-size: 1.1rem;
+      }
+      .watermark {
+        position: fixed;
+        bottom: 32px;
+        right: 32px;
+        font-size: 2.8rem;
+        color: #ffffff2f;
+        font-weight: bold;
+        pointer-events: none;
+        user-select: none;
+        letter-spacing: 0.1em;
+        z-index: 0;
+      }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="upload.html">Upload</a>
+      <a href="results.html">Results</a>
+    </nav>
+    <div class="container">
+      <h1>Results</h1>
+      <div id="resultsContainer">
+          <p>Highlight 1: ...</p>
+          <p>Highlight 2: ...</p>
+      </div>
+    </div>
+    <div class="watermark">TexTracer</div>
+</body>
+</html>
